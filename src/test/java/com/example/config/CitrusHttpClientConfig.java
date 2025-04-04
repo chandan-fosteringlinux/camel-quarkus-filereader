@@ -12,7 +12,7 @@ public class CitrusHttpClientConfig {
     @Produces
     public HttpClient createHttpClient() {
         return new HttpClientBuilder()
-                .requestUrl("http://localhost:8080")  // Update with your actual API endpoint
+                .requestUrl("http://localhost:8080")  
                 .build();
     }
 }
